@@ -1,23 +1,50 @@
-//Recebeu as variaveis
-let nome = prompt("Digite seu nome ")
-let idade = prompt("Digite sua idade ")
-//MENSAGEM: Digite as horas que voce trabalha de  por dia:
-let horasTrabalho = prompt("Digite as horas de que voce trabalha por dia")
-let salarioDia = prompt("Digite o seu salario diario:")
-//Verificando variaveis
-console.log(typeof nome)
-console.log(typeof horasTrabalho)
-console.log(typeof SalarioDia)
-//Convertendo o que e necessario
-let horasTrabNumber = Number(horasTrabalho)
-let salDiaNumber = Number(salarioDia)
-//Processando valores
-let valHoraNumber = horasTrabNumber/salDiaNumber
-//Conversao para nao dar erro de NULL
-const mensagem ="Seu valor e " + valorHora + "!!!"
-//Verificando variaveis
-console.log(typeof valorHora)
-console.log(typeof mensagem)
-console.log(mensagem)
-//Saida de valores para Front End
-alert(mensagem)
+//DECLARAÇAO DAS VARIAVEIS
+let nome 
+let idade 
+let anoNascimento
+let anoAtual
+let maiorIdade
+let idade2050
+
+//RECEBE VALORES
+nome = prompt("Digite o seu nome")
+anoNascimento = prompt("Digite a data do seu nascimento")
+anoAtual = prompt("Digite o ano atual")
+
+//CALCULA OS VALORES PEDIDOS
+idade = anoAtual - anoNascimento
+maiorIdade = idade >= 18 
+idade2050 = 2050 - anoNascimento
+
+//RESULTADO NA TELA 
+alert(nome)
+alert(idade)
+alert(maiorIdade)
+alert(idade2050)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
