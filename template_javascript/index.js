@@ -18,14 +18,30 @@ alert(`Meu nome é ${nomeDoUsuario} e meu e-mail é ${emailDoUsuario}`)
 
 let option = prompt("Dgite uma opcao p/ cafe:","1-Expresso  2- Capuccino, 3- Frapuccino")
 
-if (option ===1) {
-    alert("Preparando cafe Expresso!")
-}
+if (option ===1) {//condicao 1
+    alert("Preparando cafe Expresso!")//acao 1
+}//prepara cafe(option1)
 
-if (option ===2) {
-    alert("Preparando cafe Capuccino!")
-}
+if (option ===2) {//condicao 2
+    alert("Preparando cafe Capuccino!")//acao 2
+}//prepara cafe(option2)
 
-if (option ===3) {
-    alert("Preparando cafe Frapuccino!")
-}
+if (option ===3) {//condicao 3
+    alert("Preparando cafe Frapuccino!")//acao 3
+}//prepara cafe(option3)
+
+End
+
+
+Inicio do codigo
+         |
+      Etapa 1
+         |
+      Etapa 2
+         |
+         *
+  --  [ 7 ] --
+  |           |
+Possb 1     Possb 2
+  |           |
+endcode      endcode
