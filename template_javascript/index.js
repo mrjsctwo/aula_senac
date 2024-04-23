@@ -45,3 +45,10 @@ Inicio do codigo
 Possb 1     Possb 2
   |           |
 endcode      endcode
+
+
+if (condition) {
+    alert("")
+} else {
+    alert("")
+}
