@@ -162,3 +162,88 @@ console.log('e. ', array) // i + 1 = 3+1=4(as posicoes invertem por causa do num
 
 const valor = array[i+6] // soma de i(3) + 6 = 9
 console.log('f. ', valor)
+*/
+
+
+//EXERCICIOS 1
+//DECALRAÇAO DE VARIAVEIS:
+/*let maiorIdade = []
+//INSERE OS VALORES DO USUARIO:
+let idade = Number(prompt("Digite a sua idade:"))
+
+maiorIdade.push(idade)
+
+//PROCESSA DADOS:
+if (maiorIdade ==='18') {
+    alert('Vode pode dirigir!')
+}else if (maiorIdade >= '18') {
+    alert('Vode pode dirigir!')
+}else if (maiorIdade <= '18') {
+    alert('Vode nao pode dirigir!')
+}
+*/
+
+//EXERCICIO 2
+
+
+
+//EXERCICIO 5
+
+//DECLARAÇAO DE VARIAVEIS/ //INSERE OS VALORES DO USUARIO:
+/*let genFilme = prompt("Qual o genero do filme?")
+let valorFilme = promp("Digite o preço do filme:")
+
+genFilme = genFilme.toUpperCase()
+//PROCESSA DADOS:
+if ((genFilme == "FANTASIA") && (valorFilme <15)){
+    alert('Bom filme!')
+}else{
+    alert('Escolha outro filme!')
+}
+----------------------------------------------------
+----------------------------------------------------
+*/
+
+// WHILE (ENUQUANTO A CONDIÇAO FOR VERDADEIRO O LAÇO CONTINUARA/ SE FOR FALSO FECHARA.)
+// EXEEMPLO 1: IMPRIMINDO ALGUNS NUMEROS
+/*let i = 0//----------------COMEÇO
+
+while (i<10) { //----------CONDIÇAO DE CONTINUAÇAO
+    console.log(i) //------AÇAO DE REPETIÇAO
+    i++ //-----------------INCREMENTAÇAO
+}
+*/
+//SO PODEMOS COLOCAR VALORES VERDADEIROS
+//TODOS OS VALORS SAO TRUE(VERDADEIRO)//Exceto:
+// FALSE,0,-0,"",null,undefined e NaN
+
+// EXEMPLO 2: "VOU COMER ATE 100 COXINHAS"
+/*let estmomago = 0;
+
+while (estmomago <100) {// ----- 0 < 100 = FALSE
+                           ----- 101 < 100 = TRUE
+    console.log("Quero comer mais coxinhas")
+    estmomago = estmomago + 10;
+}
+*/
+
+//---------------------------------------------------------
+
+//EXERCICIO WHILE:
+//DECLARA AS VARIAVEIS:
+/*let i = 0
+let soma = 0
+
+//INICIALIZA i
+i = Number(prompt("Digite um numero para ser somado:(Para sair digite 0 !!!"))
+//INICIALIZA LOOP
+while (i != 0) {
+    //SOMA DOS VALORES
+    soma = soma + i
+    //LE OS VALORES PARA SOMAR
+    i = Number(prompt("Digite um numero para ser somado: (Para sair digite 0 !!!)"))
+}
+
+//MOSTRA O RESILTADO NA TELA APÓS SAIR O LOOP
+alert(soma)
+*/
