@@ -275,3 +275,109 @@ for(let i = 0; i < 6; i++) {
 alert(maiorValor)//18
 */
 
+//FOR OF:
+
+//EXERCICIO 1:
+
+
+/*
+let valor = 0
+for(let i = 0; i < 5; i++) {
+  valor += i
+}
+console.log(valor)
+*/
+
+//EXERCICIO 2:
+/*const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
+for (let indices of lista) {
+  if (numero > 18) {
+		console.log(numero)
+	}
+}
+*/
+
+/*const array = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
+for (const [index, value] of array.entries()) {
+  console.log(`I: ${index} - V: ${value}`)
+}
+*/
+//linha----I = 0(posicao)  V = valor que ha na posicao
+
+
+//EXERCICIO 3:
+/*const quantTotalLinhas = Number(prompt("Digite a quantidade de linhas: "))
+let quantidadeAtual = 0
+let V
+while(quantidadeAtual < quantTotalLinhas){
+  let linha = ""
+  for(let asteriscos = 0; asteriscos < quantidadeAtual + 1; asteriscos++){
+    linha += "*"
+  }
+  console.log(linha)
+  quantidadeAtual++
+}
+
+if (V === V){
+  alert("Boa tarde!")
+}
+
+/let petQuantidade = Number(prompt('Digite o numero de Pets:'))//Number
+
+if( petQuantidade === 0){
+    alert('voce pode adotar um PET!')
+}else{
+  let i = 0 
+  let P 
+  for(i = 0; i < petQuantidade; i++){
+  let nome = prompt('Digite o nome do seu PET:')
+  P.push(nome)
+
+  }
+
+}
+*/
+   //v =quantidade //
+  //imprime a quantidade
+  
+  //v =nomes   // ----guardar em um array[]
+  //imprime com o array
+
+
+
+//DECLARA VARIVAEIS 
+
+//1.ARRAY ORIGINAL
+/*let array = [1,4,5,7,89,9]
+let valor
+
+//IMPRIME ARRAY ORIGINAL
+alert(array)
+
+//COMPUTA ARRAY ORIGINAL
+for(valor of array){
+    alert(valor)
+}
+//COMPUTA ARRAY ORIGINAL DIVIDINDO
+for(valor of array){
+    alert(valor / 10)
+
+}
+
+//3.DECLARA VARIAVEIS
+let numerosP = []
+//COMPUTA ARRAY NOVO 
+for(valor of array ){
+   if(valor % 2 === 0){
+  numerosP.push(valor)
+   }
+}
+//4.NOVO COM ARRAY COM STRINGS 
+// DECLARA VARIAVEIS
+let arrayString = []
+
+//COMPUTA ARRAY STRINGS
+for (){
+
+}
+*/
