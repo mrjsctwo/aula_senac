@@ -321,7 +321,7 @@ while(quantidadeAtual < quantTotalLinhas){
 if (V === V){
   alert("Boa tarde!")
 }
-
+------------------------
 /let petQuantidade = Number(prompt('Digite o numero de Pets:'))//Number
 
 if( petQuantidade === 0){
@@ -330,8 +330,8 @@ if( petQuantidade === 0){
   let i = 0 
   let P 
   for(i = 0; i < petQuantidade; i++){
-  let nome = prompt('Digite o nome do seu PET:')
-  P.push(nome)
+  let Pnome = prompt('Digite o nome do seu ${i+1} pet:')
+  P.push(Pnome)
 
   }
 
@@ -358,21 +358,22 @@ alert(array)
 for(valor of array){
     alert(valor)
 }
-//COMPUTA ARRAY ORIGINAL DIVIDINDO
+//2.COMPUTA ARRAY ORIGINAL DIVIDIDO POR 10
 for(valor of array){
-    alert(valor / 10)
+    alert(valor % 10)
 
 }
 
-//3.DECLARA VARIAVEIS
+//3.NUMEOS PARES
+//DECLARA VARIAVEL
 let numerosP = []
-//COMPUTA ARRAY NOVO 
+//COMPUTA ARRAY PARES 
 for(valor of array ){
    if(valor % 2 === 0){
   numerosP.push(valor)
    }
 }
-//4.NOVO COM ARRAY COM STRINGS 
+//4.NUMEROS PARES DO ARRAY ORIGINAL
 // DECLARA VARIAVEIS
 let arrayString = []
 
@@ -380,4 +381,34 @@ let arrayString = []
 for (){
 
 }
+
 */
+
+
+
+
+
+//BLOCO 0 --- SISTEMA DE CADASTRO --- MENU PRINCIPAL
+/*function sitemaDeCadastro(){
+  let mensagem = ''
+  mensagem += '====== SISTEMA DE CADASTRO DE DOADORES DE SANGUE ======\n\n'
+  mensagem += '1. CADASTRAR DOAODR \n'
+  mensagem += '2. LISTAR DOADORES \n'
+  mensagem += '3. BUSCAR DOADOR POR TIPO SANGUINEO \n'
+  mensagem += '4. BUSCAR DOADOR POR DATA DA ULTIMA DOAÇAO \n'
+  mensagem += '5. SAIR \n'
+  mensagem += '\n ESCOLHA UMA OPÇÃO:\n'
+  let opcao = Number(prompt(mensagem))
+  return opcao
+}
+sitemaDeCadastro()*/
+
+function listarDoadores(){
+  let mensagem = ''
+  mensagem += '\n----------------------------\n'
+  mensagem += '\nLISTAGEM DE DOADORES :\n'
+  mensagem += '\n----------------------------\n'
+  let opcao = Number(prompt(mensagem))
+  return opcao
+}
+listarDoadores()
