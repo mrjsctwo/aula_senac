@@ -403,12 +403,28 @@ for (){
 }
 sitemaDeCadastro()*/
 
+//BLOCO 1 CADASTRAR DOADOR
+function CadastrarDoador(){
+  let nome = prompt('Digite o seu nome:')
+  let idade = prompt('Digite a sua idade:')
+  let peso = prompt('Digite o seu peso:')
+  let sangue = prompt('Digite o tipo sanguineo:')
+  
+  
+/*BLOCO 2 LISTAR DOADOAR
 function listarDoadores(){
   let mensagem = ''
   mensagem += '\n----------------------------\n'
   mensagem += '\nLISTAGEM DE DOADORES :\n'
   mensagem += '\n----------------------------\n'
+  mensagem += '\n'
   let opcao = Number(prompt(mensagem))
   return opcao
 }
 listarDoadores()
+*/
+
+let doadorInfo = [
+  {nome: '', idade:'', peso:'', sangue:''}
+]
+alert(doadorInfo.nome)
