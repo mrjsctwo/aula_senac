@@ -34,8 +34,6 @@ CREATE TABLE Produtos(
     cor VARCHAR(15)
 );
 
-USE ti3k5791_murilocoelho;
-
 INSERT INTO Produtos(prodID, nome , prodCategoria , preco , peso , marca , garantia, cor)
   VALUES(1,'Iphone','Eletronico', 1234, 200.2 ,'Apple','1 ano', 'Verde'),
  (2, 'Galaxy', 'Eletronico', 2000 , 300, 'Samsung', '2 anos', 'Azul'),
@@ -47,7 +45,6 @@ INSERT INTO Produtos(prodID, nome , prodCategoria , preco , peso , marca , garan
  (8, 'Abns','Teclado', 500 , 209.04 , 'Alienware', '5 anos', 'Laranja'),
  (9,'Stanley', 'Garrafa', 125 , 20.0 , 'Stanley', '6 anos', 'Amarelo' ),
  (10, 'RE1', 'Games', 30 ,12, 'Capcom', '9 meses','Vermelho');
-
 
 
 
