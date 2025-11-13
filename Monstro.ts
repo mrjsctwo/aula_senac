@@ -1,5 +1,5 @@
 /*
-import {Guerreiro} from "./GUERREIRO"
+import {Guerreiro} from "./GuerreiroO"
 
 class Monstro{//MOLDE
     nome:string
@@ -20,3 +20,4 @@ class Monstro{//MOLDE
 
 }
 */
+
