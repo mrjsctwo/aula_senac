@@ -4,12 +4,12 @@ class Animal{
     weight:number //Peso
     
     //Caracteristicas
-    constructor(name:string, weight:number){
+    constructor(name:string, weight:number){//Funcao Constructor
         this.name = name
         this.weight = weight
 
     }
-    //Funções do Animal
+    //Comportamento
     eat(quantity:number){//Comer
         console.log('The animal has eaten' + quantity)
     
