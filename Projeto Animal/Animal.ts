@@ -1,18 +1,20 @@
+//Classe Principal - Animal
 class Animal{
-    name:string
-    weight:number
-
+    name:string //Nome
+    weight:number //Peso
+    
+    //Caracteristicas
     constructor(name:string, weight:number){
         this.name = name
         this.weight = weight
 
     }
-
-    eat(quantity:number){
+    //Funções do Animal
+    eat(quantity:number){//Comer
         console.log('The animal has eaten' + quantity)
     
     }
-    sleep(hours: number){
+    sleep(hours: number){//Dormir
         console.log('The animal went to sleep' + hours)
     }
 
