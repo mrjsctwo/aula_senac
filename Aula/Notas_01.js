@@ -1,28 +1,22 @@
-/*
 //AULA 04 - TYPESCRIPT
+//-- npx tsc index.ts
+//-- node index.js
 
-//STRING
-
+//VARIÁVEIS 
 let nome:string = 'Murilo'
 let idade:number = 29
 let souEstudante:boolean = false
 
+//IMPRIMIR NA TELA
 console.log(`Meu nome é ${nome} e tenho ${idade} anos. Sou estudante? ${souEstudante}.`)
 
 //Criem uma funçao que pede nome, idade e se tem carteria de motorista
-
-//-- npx tsc index.ts
-//-- node index.js
-
-//readline-sync
-
+//Use readline-sync
 import * as readline from 'readline-sync'
 
 let nome: string = readlineSync.question('Qaul é seu nome?')
 let idade: number = Number(readlinesync.question('Qual a suas idade?'))
 let temCarteira: string  = readlineSync.question('Voce possui carteira de motorista para dirigir?(Sim/Nao)')
-
-
 
 function podeDirigir (myname: string, myIdade: number, myCarteira: boolean):void{
         
@@ -39,23 +33,26 @@ podeDirigir(nome,idade, temCarteira)
 
 // PASSO 1 - INSTALAR O TYPESCRIPT
 // NPM INSTALL -G TYPESCRIPT ou NPM INSTALL TYPESCRIPT
+
 // PASSO 2 - TRANSPILAR PARA JS
 // NPX TSC NOMEARQUIVO.TS
+
 // PASSO 3 - RODAR O ARQUIVO JS
 // NODE NOMEARQUIVO.JS
 
-//AULA 05 - ARRAY E OBJETOS
+//AULA 05 - ARRAY E OBJETO
 
-]//ARRAY
+//ARRAY
 var array1 = [1, 2, 3];
 var array2 = [1, 2, 3];
 
 //OBJETO
-
 var person = {
     name: 'Mr',
     age: 20
 };
+
+//FUNÇÃO 
 function soma(num1, num2) {
     return num1 + num2;
 }
@@ -68,5 +65,3 @@ function chamaAlgo(nome) {
 function sayHello(name) {
     console.log('Hello', name || 'World');
 }
-
-*/
